@@ -1,0 +1,67 @@
+.img{
+  width: 100%;
+  border-radius: 13px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.infom{
+  position: relative;
+  text-align: center;
+}
+
+*{
+  box-sizing: border-box;
+}
+.business-card{
+width:40%;
+padding: 20px;
+border: 1px solid #5e5555;
+background-color: #292626;
+color: aliceblue;
+border-radius: 15px;
+
+}
+
+button{
+  padding: 10px;
+  margin: 10px;
+  width:30% ;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+ .btn1{
+  background-color: antiquewhite;
+  color: #080707;
+  margin: 5px;
+}
+ .btn2{
+  background-color: rgb(45, 147, 231);
+  color: #fffdfd;
+  margin: 5px;
+}
+.footer-icons{
+font-size: 40px;
+display: flex;
+justify-content:space-evenly;
+margin: 10px;
+}
+
+
+.business-card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+a{
+  color: white;
+  margin: 5px;
+}
+a:hover{
+  color: rgb(49, 102, 116);
+}
+button:hover{
+  background-color:rgb(49, 102, 116);
+}
